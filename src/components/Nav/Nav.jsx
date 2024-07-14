@@ -11,6 +11,7 @@ function Nav() {
       </div>
       <div className="nav-links">
         <Link to="/home"><FaHome /> Home</Link>
+        
         <Link to="/about"><FaUser /> About</Link>
         <Link to="/certificates"><FaStar /> Certificates</Link>
         <Link to="/projects"><FaProjectDiagram /> Projects</Link>
