@@ -1,0 +1,69 @@
+.certificate-section {
+    text-align: center;
+    padding: 50px;
+    background-color: #111; /* Dark background color */
+    color: white;
+  }
+  
+  .certificate-section h1 {
+    font-size: 36px;
+    margin-bottom: 20px;
+  }
+  
+  .certificate-section .highlight {
+    color: #e91e63; /* Pink color for the highlight */
+  }
+  
+  .certificate-section p {
+    font-size: 18px;
+    margin-bottom: 40px;
+  }
+  
+  .certificate-grid {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 20px;
+  }
+  
+  .certificate-card {
+    background-color: #1c1c1c;
+    border: 1px solid #e91e63;
+    padding: 20px;
+    border-radius: 10px;
+    width: 300px; /* Adjust as needed */
+    text-align: left;
+  }
+  
+  .certificate-card img {
+    width: 100%;
+    border-radius: 10px;
+    margin-bottom: 15px;
+  }
+  
+  .certificate-card h2 {
+    font-size: 24px;
+    margin-bottom: 10px;
+  }
+  
+  .certificate-card p {
+    font-size: 16px;
+    line-height: 1.6;
+    margin-bottom: 20px;
+  }
+  
+  .button {
+    background-color: #6a1b9a; /* Purple background for buttons */
+    color: white;
+    padding: 10px 20px;
+    border-radius: 5px;
+    text-decoration: none;
+    font-size: 18px;
+    display: inline-block;
+    transition: background-color 0.3s;
+  }
+  
+  .button:hover {
+    background-color: #e91e63; /* Pink background on hover */
+  }
+  

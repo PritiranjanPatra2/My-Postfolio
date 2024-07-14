@@ -1,0 +1,84 @@
+.profile-section {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 50px 10vw;
+  background-color: #111; /* Dark background color */
+  color: white;
+}
+
+.text-content {
+  max-width: 50%;
+}
+
+.text-content p {
+  font-size: 24px;
+  line-height: 1.6;
+  margin-bottom: 10px;
+}
+
+.text-content .wave {
+  font-size: 30px; /
+}
+
+.text-content h1 {
+  font-size: 48px;
+  margin: 10px 0;
+}
+
+.text-content .highlight {
+  color: #e91e63;
+}
+
+.text-content h2 {
+  font-size: 36px;
+  margin-top: 10px;
+}
+
+.image-content {
+  max-width: 50%;
+}
+
+.image-content img {
+  max-width: 100%;
+  height: auto;
+  border-radius: 10px; 
+}
+
+.introduce-section {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+padding: 50px 10vw;
+  background-color: #111; /* Dark background color */
+  color: white;
+}
+
+.introduce-text-content {
+  max-width: 50%;
+}
+
+.introduce-text-content h1 {
+  font-size: 36px;
+  margin-bottom: 20px;
+}
+
+.introduce-text-content p {
+  font-size: 18px;
+  line-height: 1.6;
+  margin-bottom: 10px;
+}
+
+.introduce-text-content .highlight {
+  color: #e91e63; /* Pink color for the highlight */
+}
+
+.introduce-image-content {
+  max-width: 40%; 
+}
+
+.introduce-image-content img {
+  max-width: 100%;
+  height: auto;
+  border-radius: 50%;
+}

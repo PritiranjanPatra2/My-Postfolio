@@ -1,0 +1,139 @@
+.About-page {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 50px 10vw;
+    background-color: #111; 
+    color: white;
+    flex-wrap: wrap;
+  }
+  
+  .text-content {
+    max-width: 50%;
+    flex: 1;
+  }
+  
+  .text-content h2 {
+    color: #e91e63;
+    font-size: 36px;
+    margin-bottom: 20px;
+  }
+  
+  .text-content p {
+    font-size: 18px;
+    line-height: 1.6;
+  }
+  
+  .text-content a {
+    color: #e91e63; 
+    text-decoration: none;
+  }
+  
+  .text-content ul {
+    list-style: none;
+    padding: 0;
+  }
+  
+  .text-content ul li {
+    font-size: 18px;
+    margin: 10px 0;
+    position: relative;
+    padding-left: 25px;
+  }
+  
+  .text-content ul li::before {
+    content: "↠";
+    position: absolute;
+    left: 0;
+    color: #e91e63;
+  }
+  
+  .quote {
+    font-style: italic;
+    margin-top: 20px;
+  }
+  
+  .signature {
+    text-align: right;
+    margin-top: 10px;
+  }
+  
+  .image-content {
+    flex: 1;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  
+  .image-content img {
+    max-width: 100%;
+    height: auto;
+    border-radius: 10px; 
+  }
+  
+  .skillset-section,
+  .tools-section,
+  .coding-days-section {
+    margin-top: 50px;
+    text-align: center;
+  }
+  
+  .skillset-section h2,
+  .tools-section h2,
+  .coding-days-section h2 {
+    font-size: 28px;
+    margin-bottom: 20px;
+    color: rgb(197, 168, 114);
+  }
+  
+  .skillset-section .highlight,
+  .tools-section .highlight,
+  .coding-days-section .highlight {
+    color: #e91e63; 
+  }
+  
+  .skills,
+  .tools {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 20px;
+  }
+  
+  .skill,
+  .tool {
+    background-color: #ffffffa7;
+    border: 1px solid #ac204f;
+    padding: 20px;
+    border-radius: 10px;
+    width: 250px;
+    height: 200px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    transition: transform 0.3s;
+    flex-direction: column;
+  }
+  
+  .skill span,
+  .tool span {
+    font-size: 18px;
+    color: rgb(0, 0, 0);
+  }
+  
+  .skill:hover,
+  .tool:hover {
+    transform: scale(1.1);
+  }
+  
+  .icon {
+    font-size: 40px !important; 
+    margin-bottom: 10px;
+  }
+  
+  .coding-days-image {
+    max-width: 100%;
+    height: auto;
+    margin-top: 20px;
+  }
+ 
