@@ -7,6 +7,7 @@ import Resume from "./components/Resume/Resume";
 import Certificate from "./components/Certificate/Certificate";
 import Contact from "./components/Contact/Contact";
 import Footer from "./components/Footer/Footer";
+import More from "./components/More/More";
 // import * as ReactDOM from "react-dom";
 function App(){
   return(
@@ -21,6 +22,7 @@ function App(){
   <Route path="/contact" element={<Contact/>}/>
   <Route path="/projects" element={<Projects/>}/>
   <Route path="/resume" element={<Resume/>}/>
+  <Route path="/more" element={<More/>}/>
 </Routes>
 <Footer/>
 </BrowserRouter>

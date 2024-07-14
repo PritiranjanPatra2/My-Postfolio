@@ -17,6 +17,8 @@ function Nav() {
         <Link to="/projects"><FaProjectDiagram /> Projects</Link>
         <Link to="/resume"><FaFileAlt /> Resume</Link>
         <Link to="/contact"><FaBlog /> Contact</Link>
+        <Link to="/more">
+        <FaBlog /> More</Link>
       </div>
       <div className="star-icon">
       <a href="https://github.com/PritiranjanPatra2"><FaStar /></a>
