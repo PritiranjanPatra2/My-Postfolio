@@ -7,7 +7,7 @@ function Nav() {
   return (
     <div className="navbar">
       <div className="logo">
-        <h1>Jack</h1>
+        <h1>Patra Dev</h1>
       </div>
       <div className="nav-links">
         <Link to="/home"><FaHome /> Home</Link>
