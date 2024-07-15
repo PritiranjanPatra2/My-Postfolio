@@ -48,6 +48,13 @@ function Certificate() {
       link: 'https://www.udemy.com/certificate/UC-333aabf0-148f-45ec-a318-6d50b0d0caf3/'
     },
     {
+      title: 'JavaScript (Basic) Certificate',
+      description: 'Certification for completing JavaScript (Basic) Certificate.',
+      image: JavascriptBascic,
+      link: 'https://www.hackerrank.com/certificates/00d1f90b0097'
+    }
+    ,
+    {
       title: 'Learn API Technical Writing: JSON and XML for Writers',
       description: 'Certification for completing Learn API Technical Writing: JSON and XML for Writers.',
       image: api,
@@ -136,7 +143,8 @@ function Certificate() {
       description: 'Certification for completing Problem Solving (Basic).',
       image: Problem,
       link: 'https://www.hackerrank.com/certificates/24CD3F87A5DF'
-    }
+    },
+   
   ];
   
   
