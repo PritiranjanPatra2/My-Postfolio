@@ -9,15 +9,15 @@ function More() {
           <ul>
             <li>
               Achieved a prestigious 4-star ranking on HackerRank for exemplary problem-solving skills in Java and MySQL.{' '}
-              <a href="HackerRank Profile URL">View HackerRank Profile</a>
+              <a href="https://www.hackerrank.com/profile/patrapritiranja1">View HackerRank Profile</a>
             </li>
             <li>
               Successfully tackled over 170 challenging problems on LeetCode, demonstrating proficiency in algorithmic problem-solving.{' '}
-              <a href="LeetCode Profile URL">View LeetCode Profile</a>
+              <a href="https://leetcode.com/u/patrapritiranjan11/">View LeetCode Profile</a>
             </li>
             <li>
               Completed a rigorous 50-day coding challenge on LeetCode, maintaining an impressive 75-day maximum streak, showcasing dedication and consistency in honing coding skills.{' '}
-              <a href="LeetCode Profile URL">View LeetCode Profile</a>
+              <a href="https://leetcode.com/u/patrapritiranjan11/">View LeetCode Profile</a>
             </li>
           </ul>
         </div>
