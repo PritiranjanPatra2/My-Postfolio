@@ -1,4 +1,5 @@
 import React from 'react';
+import { Link } from 'react-router-dom';
 import './Footer.css';
 import { FaGithub, FaLinkedin, FaTwitter, FaEnvelope, FaPhone } from 'react-icons/fa';
 
@@ -9,11 +10,13 @@ function Footer() {
         <div className="footer-nav">
           <h2>Quick Links</h2>
           <ul>
-            <li><a href="/home">Home</a></li>
-            <li><a href="/about">About</a></li>
-            <li><a href="/projects">Projects</a></li>
-            <li><a href="/blog">Blog</a></li>
-            <li><a href="/contact">Contact</a></li>
+            <li><Link to="/home">Home</Link></li>
+            <li><Link to="/about">About</Link></li>
+            <li><Link to="/projects">Projects</Link></li>
+            <li><Link to="/certificates">Certificates</Link></li>
+            <li><Link to="/resume">Resume</Link></li>
+            <li><Link to="/contact">Contact</Link></li>
+            <li><Link to="/more">More</Link></li>
           </ul>
         </div>
 
