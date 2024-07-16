@@ -163,6 +163,7 @@
 
   .text-content h2 {
     font-size: 28px;
+    
   }
 
   .text-content p, .introduce-text-content p {
@@ -178,13 +179,12 @@
   .text-content h2 {
     /* font-size: 24px; */
     display: flex;
+    display: none;
   }
 
   .text-content p, .introduce-text-content p {
     font-size: 14px;
   }
 
-  .image-content img, .introduce-image-content img {
-    max-width: 80%;
-  }
+
 }

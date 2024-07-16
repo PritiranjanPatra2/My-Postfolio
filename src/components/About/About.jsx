@@ -13,15 +13,15 @@ function About() {
           <h2>Know Who I'M</h2>
           <p>
             Hi Everyone, I am <a href="https://github.com/PritiranjanPatra2">Pritiranjan Patra</a> from <a href="https://en.wikipedia.org/wiki/Bhubaneswar">Bhubaneswar, India.</a>
-            <br />
-            I am currently employed as a software developer at Juspaye.
+           
+            
             <br />
             I have completed Integrated MCA (IMCA) at Utkal University.
           </p>
           <p>Apart from coding, some other activities that I love to do!</p>
           <ul>
             <li>Playing Games</li>
-            <li>Writing Tech Blogs</li>
+            <li>Watching Movies</li>
             <li>Travelling</li>
           </ul>
           <p className="quote">"Strive to build things that make a difference!"</p>

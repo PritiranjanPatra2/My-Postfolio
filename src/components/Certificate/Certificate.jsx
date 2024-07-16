@@ -20,6 +20,14 @@ import Pythonba from '../../Assets/Python-Ba.png';
 import JavaBa from '../../Assets/Java-Ba.png';
 import Problem from '../../Assets/Problem.png';
 import CssBasic from '../../Assets/CssBasic.png';
+import Presentations from '../../Assets/Presentations.png';
+import Ace from '../../Assets/Ace.png';
+import Soft from '../../Assets/Soft.png';
+import Group from '../../Assets/Group.png';
+import chatgpt from '../../Assets/chatgpt.png';
+import Resume from '../../Assets/Resume.png';
+
+
 
 
 
@@ -34,7 +42,6 @@ function Certificate() {
       image: JavaBa,
       link: 'https://www.hackerrank.com/certificates/e8013fbe968e'
     },
-   
     {
       title: 'Selenium Webdriver',
       description: 'Certification for completing the Selenium Webdriver.',
@@ -52,8 +59,7 @@ function Certificate() {
       description: 'Certification for completing JavaScript (Basic) Certificate.',
       image: JavascriptBascic,
       link: 'https://www.hackerrank.com/certificates/00d1f90b0097'
-    }
-    ,
+    },
     {
       title: 'Learn API Technical Writing: JSON and XML for Writers',
       description: 'Certification for completing Learn API Technical Writing: JSON and XML for Writers.',
@@ -129,7 +135,7 @@ function Certificate() {
     {
       title: 'SQL (Basic) Certificate',
       description: 'Certification for completing SQL (Basic).',
-      image: Sqlba  ,
+      image: Sqlba,
       link: 'https://www.hackerrank.com/certificates/7280B303162D'
     },
     {
@@ -144,7 +150,42 @@ function Certificate() {
       image: Problem,
       link: 'https://www.hackerrank.com/certificates/24CD3F87A5DF'
     },
-   
+    {
+      title: 'Understand How to Ace Corporate Interviews',
+      description: 'Certification for completing the course on Understand How to Ace Corporate Interviews.',
+      image: Ace,
+      link: 'https://pritiranjanpatra2.github.io/Certificates/Ace.html'
+    },
+    {
+      title: 'Be Prepared for Group Discussions',
+      description: 'Certification for completing the course on Be Prepared for Group Discussions.',
+      image: Group,
+      link: 'https://pritiranjanpatra2.github.io/Certificates/Group.html'
+    },
+    {
+      title: 'Prepare a Strong Resume and Cover Letter',
+      description: 'Certification for completing the course on Prepare a Strong Resume and Cover Letter.',
+      image: Resume,
+      link: 'https://pritiranjanpatra2.github.io/Certificates/Resume.html'
+    },
+    {
+      title: 'Develop Soft Skills that Industry Demands',
+      description: 'Certification for completing the course on Develop Soft Skills that Industry Demands.',
+      image: Soft,
+      link: 'https://pritiranjanpatra2.github.io/Certificates/Soft.html'
+    },
+    {
+      title: 'Make Impactful Presentations',
+      description: 'Certification for completing the course on Make Impactful Presentations.',
+      image: Presentations,
+      link: 'https://pritiranjanpatra2.github.io/Certificates/Presentations.html'
+    },
+    {
+      title: '1-Day AI Tools Workshop',
+      description: 'Certification for completing the 1-Day AI Tools Workshop.',
+      image: chatgpt,
+      link: 'https://pritiranjanpatra2.github.io/Certificates/'
+    }
   ];
   
   
