@@ -1,5 +1,6 @@
 .profile-section {
   display: flex;
+  flex-direction: row;
   justify-content: space-between;
   align-items: center;
   padding: 50px 10vw;
@@ -72,6 +73,7 @@
 
 .introduce-section {
   display: flex;
+  flex-direction: row;
   justify-content: space-between;
   align-items: center;
   padding: 50px 10vw;
@@ -134,4 +136,55 @@
 @keyframes slideInRight {
   0% { transform: translateX(100%); }
   100% { transform: translateX(0); }
+}
+
+/* Responsive Styles */
+@media (max-width: 768px) {
+  .profile-section, .introduce-section {
+    flex-direction: column;
+    padding: 20px 5vw;
+  }
+
+  .text-content, .introduce-text-content {
+    max-width: 100%;
+    text-align: center;
+    animation: none;
+  }
+
+  .image-content, .introduce-image-content {
+    max-width: 100%;
+    margin-top: 20px;
+    animation: none;
+  }
+
+  .text-content h1, .introduce-text-content h1 {
+    font-size: 32px;
+  }
+
+  .text-content h2 {
+    font-size: 28px;
+  }
+
+  .text-content p, .introduce-text-content p {
+    font-size: 16px;
+  }
+}
+
+@media (max-width: 480px) {
+  .text-content h1, .introduce-text-content h1 {
+    font-size: 28px;
+  }
+
+  .text-content h2 {
+    /* font-size: 24px; */
+    display: flex;
+  }
+
+  .text-content p, .introduce-text-content p {
+    font-size: 14px;
+  }
+
+  .image-content img, .introduce-image-content img {
+    max-width: 80%;
+  }
 }

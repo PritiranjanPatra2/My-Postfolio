@@ -1,70 +1,119 @@
 .more-section {
-    display: flex;
-    flex-direction: column;
-    gap: 20px;
-    padding: 30px;
-    /* background: #f0f0f0; */
-  }
-  
-  .card {
-    background: rgba(237, 235, 235, 0.444);
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+  padding: 30px;
+}
+
+.card {
+  background: rgba(237, 235, 235, 0.444);
+  padding: 20px;
+  border-radius: 12px;
+  box-shadow: 0 4px 20px rgba(0, 0, 0, 0.1);
+  transition: transform 0.3s, box-shadow 0.3s;
+}
+
+.card:hover {
+  transform: translateY(-10px);
+  box-shadow: 0 8px 30px rgba(0, 0, 0, 0.2);
+}
+
+.card h2 {
+  font-size: 24px;
+  color: #222;
+  margin-bottom: 12px;
+  border-bottom: 2px solid #007bff;
+  display: inline-block;
+  padding-bottom: 6px;
+}
+
+.card ul {
+  list-style-type: disc;
+  padding-left: 20px;
+}
+
+.card ul li {
+  margin-bottom: 12px;
+  font-size: 18px;
+  color: #000000;
+  line-height: 1.5;
+  transition: color 0.3s;
+}
+
+.card ul li:hover {
+  color: #007bff;
+}
+
+.card a {
+  color: #007bff;
+  text-decoration: none;
+  font-weight: bold;
+  transition: color 0.3s;
+}
+
+.card a:hover {
+  color: #0056b3;
+  text-decoration: underline;
+}
+
+.card p {
+  font-size: 18px;
+  color: #444;
+  margin-bottom: 12px;
+  line-height: 1.6;
+}
+
+.card p strong {
+  color: #222;
+}
+
+/* Responsive Styles */
+@media (max-width: 768px) {
+  .more-section {
     padding: 20px;
-    border-radius: 12px;
-    box-shadow: 0 4px 20px rgba(0, 0, 0, 0.1);
-    transition: transform 0.3s, box-shadow 0.3s;
   }
-  
-  .card:hover {
-    transform: translateY(-10px);
-    box-shadow: 0 8px 30px rgba(0, 0, 0, 0.2);
+
+  .card {
+    padding: 15px;
   }
-  
+
   .card h2 {
-    font-size: 24px;
-    color: #222;
-    margin-bottom: 12px;
-    border-bottom: 2px solid #007bff;
-    display: inline-block;
-    padding-bottom: 6px;
+    font-size: 22px;
+    margin-bottom: 10px;
+    padding-bottom: 5px;
   }
-  
-  .card ul {
-    list-style-type: disc;
-    padding-left: 20px;
-  }
-  
+
   .card ul li {
-    margin-bottom: 12px;
-    font-size: 18px;
-    color: #000000;
-    line-height: 1.5;
-    transition: color 0.3s;
+    font-size: 16px;
+    margin-bottom: 10px;
   }
-  
-  .card ul li:hover {
-    color: #007bff;
-  }
-  
-  .card a {
-    color: #007bff;
-    text-decoration: none;
-    font-weight: bold;
-    transition: color 0.3s;
-  }
-  
-  .card a:hover {
-    color: #0056b3;
-    text-decoration: underline;
-  }
-  
+
   .card p {
-    font-size: 18px;
-    color: #444;
-    margin-bottom: 12px;
-    line-height: 1.6;
+    font-size: 16px;
   }
-  
-  .card p strong {
-    color: #222;
+}
+
+@media (max-width: 480px) {
+  .more-section {
+    padding: 15px;
   }
-  
+
+  .card {
+    padding: 10px;
+  }
+
+  .card h2 {
+    font-size: 20px;
+    margin-bottom: 8px;
+    padding-bottom: 4px;
+  }
+
+  .card ul li {
+    font-size: 14px;
+    margin-bottom: 8px;
+  }
+
+  .card p {
+    font-size: 14px;
+  }
+}
