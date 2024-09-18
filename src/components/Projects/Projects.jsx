@@ -6,10 +6,46 @@ import background from '../../Assets/bg.png';
 const projects = [
   {
     image: background,
+    title: "Google Drive Clone",
+    description:"Developed a Google Drive clone using React JS and Material UI, integrated with Firebase for real-time database and Google Authentication. The project replicates core functionalities of Google Drive, offering file upload, storage management, and a user-friendly interface that mimics its layout and features",
+    githubLink: "https://github.com/PritiranjanPatra2/drive",
+    demoLink: "https://drive-psi-one.vercel.app/"
+
+  },
+  {
+    image: background,
     title: "MetaFinder-The ultimate search Engine",
     description: "MetaFinder, a comprehensive tool designed to enhance your information search experience by seamlessly integrating multiple APIs and providing an intuitive user interface.",
     githubLink: "https://github.com/PritiranjanPatra2/MetaFinder-Ultimate-Search-Engiine",
     demoLink: "https://pritiranjanpatra2.github.io/MetaFinder-Ultimate-Search-Engiine/"
+  },
+  {
+    image: background,
+    title: "Url Shortner",
+    description: "Developed a URL shortner app using React,NodeJs,MongoDB. The app allows users to input a URL and receive a shortened version in real-time.",
+    githubLink: "https://github.com/PritiranjanPatra2/url-shortner-",
+    demoLink: "https://url-shortner-iic0.onrender.com/"
+  },
+  {
+    image: background,
+    title: "Language Translator",
+    description:"Developed a language translator app using React. The app allows users to input text and receive translations in real-time across multiple languages.",
+    githubLink: "https://github.com/PritiranjanPatra2/Text-Translator",
+    demoLink: "https://text-translator-topaz.vercel.app/"
+
+  },{
+    image: background,
+    title: "Markdown Editor",
+    description: "Developed a Markdown editor app using React. The app allows users to input text and receive formatted Markdown code.",
+    githubLink: "https://github.com/PritiranjanPatra2/NoteCraft",
+    demoLink: "https://note-craft-gamma.vercel.app/"
+  },
+  {
+    image: background,
+    title: "Image Generator",
+    description: "Developed a UI where you can find any Image as your Choice within a second",
+    githubLink: "https://github.com/PritiranjanPatra2/Image-Generator",
+    demoLink: "https://image-generator-psi-flax.vercel.app/"
   },
   {
     image: background,
