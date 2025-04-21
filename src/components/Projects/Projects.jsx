@@ -41,7 +41,7 @@ const projects = [
     title: "Full-stack Background Removal Website",
     description:"Developed a full-stack background remover website called CleanCUt. The platform allows users to sign up, sign in, and perform background removal on images. Integrated secure authentication and authorization to ensure a safe user experience also user can buy credits",
     githubLink: "https://github.com/PritiranjanPatra2/CleanCut",
-    demoLink: "https://github.com/PritiranjanPatra2/CleanCut"
+    demoLink: "https://clean-cut-pp.vercel.app/"
   },
   {
     image: BitLog,
