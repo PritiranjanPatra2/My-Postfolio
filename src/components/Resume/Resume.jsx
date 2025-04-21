@@ -9,7 +9,7 @@ function Resume() {
       <a href={resumePDF} className="download-button" download>
         <button className="button">Download CV</button>
       </a>
-      <img src={resumeImage} alt="Resume" className="resume-image" />
+      <img src={resumeImage}  alt="Resume" className="resume-image" />
     </div>
   );
 }

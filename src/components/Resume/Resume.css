@@ -27,7 +27,7 @@
   }
   
   .resume-image {
-    max-width: 100%;
+    max-width: 40%;
     height: auto;
     border-radius: 10px; /* Optional: Add rounded corners to the image */
   }
