@@ -33,9 +33,17 @@ import foodDelivery from "../../Assets/FullStackFoodDelivery.png";
 import reacthook from "../../Assets/ReactHooks.png";
 import nesly from "../../Assets/nesly.png";
 import Postman from "../../Assets/Postman.png"
+import Tata from "../../Assets/Tata.jpg"
+import FullStack from "../../Assets/FullStack.png"
 
 function Certificate() {
   const certificates = [
+    {
+      title: "Full Stack Web Development",
+      description: "Certification for completing the Full Stack Web Development Course.",
+      image: FullStack,
+      link: "https://ibb.co/B5zQ5vFT"
+    },
     {
       title: "Java (Basic) Certificate",
       description: "Certification for completing the Java (Basic).",
@@ -224,6 +232,11 @@ function Certificate() {
         "Certification for completing the course on Develop Soft Skills that Industry Demands.",
       image: Soft,
       link: "https://pritiranjanpatra2.github.io/Certificates/Soft.html",
+    },{
+      title: "Tata Crucible Campus Quiz 2024",
+      description: "Certificate of Participation for Tata Crucible Campus Quiz 2024",
+      image:Tata,
+      link:"https://ibb.co/k2Sx0sBs"
     },
     {
       title: "Make Impactful Presentations",
