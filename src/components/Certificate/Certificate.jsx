@@ -32,6 +32,7 @@ import javascript from "../../Assets/JavascriptBasic.png";
 import foodDelivery from "../../Assets/FullStackFoodDelivery.png";
 import reacthook from "../../Assets/ReactHooks.png";
 import nesly from "../../Assets/nesly.png";
+import Postman from "../../Assets/Postman.png"
 
 function Certificate() {
   const certificates = [
@@ -189,6 +190,12 @@ function Certificate() {
       description: "Certification for completing Javascript Fundamentals",
       image: javascript,
       link: "https://ibb.co/39p7g49B",
+    },
+    {
+      title: "Introduction to Postman API",
+      description:"Certification for completing the course on Introduction to Postman API. ",
+      image:Postman,
+      link :"https://ibb.co/mCK9b3Vk"
     },
     {
       title: "Understand How to Ace Corporate Interviews",
