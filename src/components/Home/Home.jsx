@@ -30,14 +30,16 @@ function Home() {
         </div>
       </div>
       <div className="introduce-section">
-  <div className="introduce-text-content">
-    <h1>LET ME <span className="highlight">INTRODUCE</span> MYSELF</h1>
-    <p> I fell in love with programming and have gained significant experience and skills over the years.</p>
-    <p> I am fluent in languages like <span className="highlight">Java and JavaScript.</span> </p>
-    <p> My field of interest includes building scalable <span className="highlight">Web Applications and Products</span> and exploring areas related to <span className="highlight">Full-Stack.</span> </p>
-    <p> I enjoy developing full-stack applications using <span className="highlight">React.js</span> for frontend, <span className="highlight">Node.js</span> and <span className="highlight">Express.js</span> for backend, and <span className="highlight">MongoDB</span> for database management.</p>
-    <p> I also love working with technologies like <span className="highlight">HTML, CSS, Tailwind CSS, MySQL</span>, and <span className="highlight">Next.js</span> to build modern, responsive UIs.</p>
-  </div>
+      <div className="introduce-text-content">
+  <h1>LET ME <span className="highlight">INTRODUCE</span> MYSELF</h1>
+  <p>Hey there! I'm the kind of person who started coding one day... and forgot to stop 😄</p>
+  <p>I know how to talk to computers using languages like <span className="highlight">Java</span> and <span className="highlight">JavaScript</span>. No, they’re not the same — but they both make cool stuff happen!</p>
+  <p>I love building websites and apps that actually do things — like booking rooms, sharing files, or just looking awesome.</p>
+  <p>I use tools like <span className="highlight">React.js</span> to build the front (the part you see), and <span className="highlight">Node.js</span> and <span className="highlight">Express.js</span> for the back (the brain of the app). For storing data, I use <span className="highlight">MongoDB</span>.</p>
+  <p>I also enjoy designing cool and clean websites with <span className="highlight">HTML, CSS, Tailwind CSS</span>, and sometimes even <span className="highlight">Next.js</span>.</p>
+  <p>So yeah, I’m just a guy who loves to create fun and useful things on the internet. Nice to meet you! 👋</p>
+</div>
+
   <div className="introduce-image-content">
     <img src={myimage} alt="Profile Illustration" />
   </div>

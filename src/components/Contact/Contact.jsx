@@ -1,12 +1,24 @@
-import React from 'react';
-import './Contact.css';
-import { FaEnvelope, FaPhone, FaMapMarkerAlt, FaGithub, FaLinkedin, FaTwitter } from 'react-icons/fa';
+import React from "react";
+import "./Contact.css";
+import {
+  FaEnvelope,
+  FaPhone,
+  FaMapMarkerAlt,
+  FaGithub,
+  FaLinkedin,
+  FaTwitter,
+} from "react-icons/fa";
 
 function Contact() {
   return (
     <div className="contact-section">
-      <h1>Contact <span className="highlight">Me</span></h1>
-      <p>Feel free to reach out to me through any of the following methods:</p>
+      <h1>
+        Contact <span className="highlight">Me</span>
+      </h1>
+      <p>
+        Wanna chat, collab, or just talk code? 💻 Feel free to reach out to me
+        through any of these methods!
+      </p>
 
       <div className="contact-container">
         <div className="contact-info">
@@ -37,9 +49,16 @@ function Contact() {
             </div>
             <div className="form-group">
               <label htmlFor="message">Message</label>
-              <textarea id="message" name="message" rows="5" required></textarea>
+              <textarea
+                id="message"
+                name="message"
+                rows="5"
+                required
+              ></textarea>
             </div>
-            <button type="submit" className="button">Send</button>
+            <button type="submit" className="button">
+              Send
+            </button>
           </form>
         </div>
       </div>
@@ -47,10 +66,18 @@ function Contact() {
       <div className="social-media">
         <h2>Find Me On</h2>
         <div className="social-icons">
-          <a href="https://github.com/PritiranjanPatra2" target="_blank" rel="noopener noreferrer">
+          <a
+            href="https://github.com/PritiranjanPatra2"
+            target="_blank"
+            rel="noopener noreferrer"
+          >
             <FaGithub className="icon" />
           </a>
-          <a href="https://www.linkedin.com/in/pritiranjan-patra-771a91287/" target="_blank" rel="noopener noreferrer">
+          <a
+            href="https://www.linkedin.com/in/pritiranjan-patra-771a91287/"
+            target="_blank"
+            rel="noopener noreferrer"
+          >
             <FaLinkedin className="icon" />
           </a>
           <a href="" target="_blank" rel="noopener noreferrer">

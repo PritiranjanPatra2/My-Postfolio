@@ -26,6 +26,12 @@ import Soft from "../../Assets/Soft.png";
 import Group from "../../Assets/Group.png";
 import chatgpt from "../../Assets/chatgpt.png";
 import Resume from "../../Assets/Resume.png";
+import Ethical from "../../Assets/Ethical.png";
+import fullStackE from "../../Assets/FullStackFoodDelivery.png";
+import javascript from "../../Assets/JavascriptBasic.png";
+import foodDelivery from "../../Assets/FullStackFoodDelivery.png";
+import reacthook from "../../Assets/ReactHooks.png";
+import nesly from "../../Assets/nesly.png";
 
 function Certificate() {
   const certificates = [
@@ -152,6 +158,39 @@ function Certificate() {
       link: "https://www.hackerrank.com/certificates/24CD3F87A5DF",
     },
     {
+      title: "Ethical Hacking & Bug Hunting: Buffer Overflow For Beginners",
+      description:
+        "Certification for completing Ethical Hacking & Bug Hunting: Buffer Overflow For Beginners.",
+      image: Ethical,
+      link: "https://www.udemy.com/certificate/UC-f27808f0-324b-47d3-a93a-88a3b93e126e/",
+    },
+    {
+      title: "Full Stack E-commerce Project",
+      description:
+        "Certification for completing the Full Stack E-commerce Project.",
+      image: fullStackE,
+      link: "https://ibb.co/JWxtj2VT",
+    },
+    {
+      title: "Full Stack Food Delivery Project",
+      description:
+        "Certification for completing the Full Stack Food Delivery Project.",
+      image: foodDelivery,
+      link: "https://ibb.co/0jjGLhrB",
+    },
+    {
+      title: "React Hooks Crash Course",
+      description: "Certification for completing React Hooks Crash Course.",
+      image: reacthook,
+      link: "https://ibb.co/S7r6bd6h",
+    },
+    {
+      title: "Javascript Fundamentals",
+      description: "Certification for completing Javascript Fundamentals",
+      image: javascript,
+      link: "https://ibb.co/39p7g49B",
+    },
+    {
       title: "Understand How to Ace Corporate Interviews",
       description:
         "Certification for completing the course on Understand How to Ace Corporate Interviews.",
@@ -187,6 +226,12 @@ function Certificate() {
       link: "https://pritiranjanpatra2.github.io/Certificates/Presentations.html",
     },
     {
+      title: "Nesly E-Learning 2025",
+      description: " Certification for completing the Nesly E-Learning",
+      image: nesly,
+      link: "https://ibb.co/G3d0ZBmp",
+    },
+    {
       title: "1-Day AI Tools Workshop",
       description: "Certification for completing the 1-Day AI Tools Workshop.",
       image: chatgpt,
@@ -200,9 +245,10 @@ function Certificate() {
         My <span className="highlight">Certificates</span>
       </h1>
       <p>
-        Here are some of the certificates I've earned through various courses
-        and programs.
+        These are my shiny digital trophies 🏆 earned by surviving online
+        courses, late-night coding, and a lot of coffee ☕. Enjoy the scroll!
       </p>
+
       <div className="certificate-grid">
         {certificates.map((cert, index) => (
           <div key={index} className="certificate-card">
