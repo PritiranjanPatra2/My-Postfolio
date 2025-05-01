@@ -35,14 +35,22 @@ import nesly from "../../Assets/nesly.png";
 import Postman from "../../Assets/Postman.png"
 import Tata from "../../Assets/Tata.jpg"
 import FullStack from "../../Assets/FullStack.png"
+import Codepi from "../../Assets/CodePi.jpg"
 
 function Certificate() {
   const certificates = [
     {
-      title: "Full Stack Web Development",
+      title: "Full Stack Web Development By Geekster",
       description: "Certification for completing the Full Stack Web Development Course.",
       image: FullStack,
       link: "https://ibb.co/B5zQ5vFT"
+    },
+    {
+      title: "Full Stack Web Development By CodePi",
+      description: "Certification for completing the Full Stack Web Development Course.",
+      image: Codepi,
+      link: "https://ibb.co/3mdF9Pyc"
+
     },
     {
       title: "Java (Basic) Certificate",
