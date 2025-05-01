@@ -46,9 +46,9 @@ function Certificate() {
       link: "https://ibb.co/B5zQ5vFT"
     },
     {
-      title: "Full Stack Web Development By CodePi",
+      title: "Full Stack Web Development By EduPi School",
       description: "Certification for completing the Full Stack Web Development Course.",
-      image: Codepi,
+      image: EduPi ,
       link: "https://ibb.co/3mdF9Pyc"
 
     },
