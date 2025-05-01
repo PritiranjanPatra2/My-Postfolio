@@ -35,7 +35,7 @@ import nesly from "../../Assets/nesly.png";
 import Postman from "../../Assets/Postman.png"
 import Tata from "../../Assets/Tata.jpg"
 import FullStack from "../../Assets/FullStack.png"
-import Codepi from "../../Assets/CodePi.jpg"
+import EduPi from "../../Assets/CodePi.jpg"
 
 function Certificate() {
   const certificates = [
